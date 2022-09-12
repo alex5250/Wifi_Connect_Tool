@@ -8,7 +8,7 @@ Sorry but the code inside is bit messy ,so if i will found some time to clean up
 3) Copy it to USB stick,Google drive where you prefrer.
 4) Enjoy :)
 
-Some scrennshoots:
+Some scrennshoots:  
 ![image](https://user-images.githubusercontent.com/20460747/189718697-24416694-17c5-49e9-8147-4f30d7b662b9.png)
 
 # Developers only:
