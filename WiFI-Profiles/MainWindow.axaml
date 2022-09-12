@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="502" d:DesignHeight="285"
+		Width="422"
+		Height="295"
+        x:Class="WiFI_Profiles.MainWindow"
+        Title="WiFI_Profiles"
+		Background="#30292F">
+	
+	<StackPanel>
+
+		<ComboBox Name="Select">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Text="{Binding Name}" />
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+		<TextBox Height="200" Margin="5" Name="textbox">
+
+		</TextBox>
+		<Button HorizontalContentAlignment="Center"  Foreground="White" Background="#355691"  Width="140"  Click="OnButtonClick"  HorizontalAlignment="Center" >Connect to WIFI</Button>
+		<Label Foreground="White">
+			<TextBlock Text="Made by @alex5250">
+				
+			</TextBlock> </Label>
+	</StackPanel>
+</Window>
