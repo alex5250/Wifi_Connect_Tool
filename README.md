@@ -14,3 +14,4 @@ Some scrennshoots:
 # Developers only:
 Clone repo and open project in Visual Studio 2022.
 
+#StandWithUkraine
